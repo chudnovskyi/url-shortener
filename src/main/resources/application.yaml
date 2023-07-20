@@ -1,0 +1,4 @@
+shortener:
+  prefix: http://short.est/
+  key: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*_+
+  size: 5

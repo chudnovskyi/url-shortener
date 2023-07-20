@@ -1,0 +1,18 @@
+1) Open Postman and make sure your application is running at http://localhost:8080.
+
+2) Create a POST request to encode the URL:
+    * Set the request method to POST.
+    * Set the URL to http://localhost:8080/api/v1/shortener/encode.
+    * In the request body, select the "raw" option and set the request payload as JSON:
+    {
+        "url": "https://www.youtube.com/feed/subscriptions"
+    }
+
+3) You will receive a response containing the encoded URL. Copy the received encoded value.
+
+4) Create a GET request to decode the URL:
+    * Set the request method to GET.
+    * Set the URL to http://localhost:8080/api/v1/shortener/decode.
+    * In the request parameters, add a parameter named "encoded" and paste the copied encoded value as the value for this parameter.
+
+5) You will receive a response containing the decoded URL.
